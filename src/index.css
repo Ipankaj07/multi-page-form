@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #00ffc6;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.firstPage_div,
+.secondPage_div {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.form_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 0.65rem;
+  padding: 1rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.form_div > div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.form_div > div label {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.form_div > div input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: fit-content;
+  border: 1px solid #30bd9e;
+  border-radius: 4px;
+  margin-top: 1.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 1rem;
+  padding: 10px 30px;
+  background-color: #30bd9e;
+  color: #fff;
+  font-weight: bold;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1rem auto;
+}
+
+thead {
+  background-color: #30bd9e;
+  color: #fff;
+}
+
+tr {
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+  border-right: 1px solid #ccc;
+}
